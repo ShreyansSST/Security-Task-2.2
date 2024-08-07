@@ -94,7 +94,7 @@
     <!-- AdminLTE App -->
     <script src="<?php echo base_url ?>dist/js/adminlte.js"></script>
     <div class="daterangepicker ltr show-ranges opensright">
-      <!-- <div class="ranges">
+      <div class="ranges">
         <ul>
           <li data-range-key="Today">Today</li>
           <li data-range-key="Yesterday">Yesterday</li>
@@ -104,7 +104,7 @@
           <li data-range-key="Last Month">Last Month</li>
           <li data-range-key="Custom Range">Custom Range</li>
         </ul>
-      </div> -->
+      </div>
       <div class="drp-calendar left">
         <div class="calendar-table"></div>
         <div class="calendar-time" style="display: none;"></div>
