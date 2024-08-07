@@ -61,23 +61,23 @@ class Login extends DBConnection {
 		}
 	}
 }
-// $action = !isset($_GET['f']) ? 'none' : strtolower($_GET['f']);
-// $auth = new Login();
-// switch ($action) {
-// 	case 'login':
-// 		echo $auth->login();
-// 		break;
-// 	case 'login_user':
-// 		echo $auth->login_user();
-// 		break;
-// 	case 'logout':
-// 		echo $auth->logout();
-// 		break;
-// 	case 'logout_user':
-// 		echo $auth->logout_user();
-// 		break;
-// 	default:
-// 		echo $auth->index();
-// 		break;
+$action = !isset($_GET['f']) ? 'none' : strtolower($_GET['f']);
+$auth = new Login();
+switch ($action) {
+	case 'login':
+		echo $auth->login();
+		break;
+	case 'login_user':
+		echo $auth->login_user();
+		break;
+	case 'logout':
+		echo $auth->logout();
+		break;
+	case 'logout_user':
+		echo $auth->logout_user();
+		break;
+	default:
+		echo $auth->index();
+		break;
 }
 
